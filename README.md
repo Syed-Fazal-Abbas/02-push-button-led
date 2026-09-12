@@ -42,7 +42,7 @@ void loop() {
 }
 ```
 Demo Video
-[[Insert video link here]https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm]
+[https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm]
 What I Learned
  * How digital input pins work
  * Using the digitalRead() function
