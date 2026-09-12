@@ -41,9 +41,7 @@ void loop() {
   }
 }
 ```
-Demo Video
-[https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm]
-What I Learned
+Demo Video (https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm)
  * How digital input pins work
  * Using the digitalRead() function
  * The concept of pull-down resistor circuits
