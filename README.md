@@ -21,6 +21,7 @@ The push button is connected to pin 2 and the LED to pin 12. When the button is 
 Code:
 
 ​```cpp
+
 int buttonPin = 2;
 int ledPin = 12;
 int buttonState = 0;
@@ -39,6 +40,7 @@ void loop() {
     digitalWrite(ledPin, LOW);   
   }
 }
+
 ```
 
 Demo Video (https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm)
