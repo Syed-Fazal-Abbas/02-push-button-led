@@ -18,29 +18,28 @@ Hardware Used
 How It Works
 The push button is connected to pin 2 and the LED to pin 12. When the button is pressed, a HIGH signal is received on pin 2, which turns the LED ON. Releasing the button changes the signal to LOW, turning the LED OFF.
 
-Code:
 
-​```cpp
+​**Code:**
 
-int buttonPin = 2;
-int ledPin = 12;
+```cpp
+int buttonPin = 2; 
+int ledPin = 12; 
 int buttonState = 0;
 
-void setup() {
-  pinMode(ledPin, OUTPUT);
-  pinMode(buttonPin, INPUT);
+void setup() { 
+  pinMode(ledPin, OUTPUT); 
+  pinMode(buttonPin, INPUT); 
 }
 
-void loop() {
+void loop() { 
   buttonState = digitalRead(buttonPin);
   
-  if (buttonState == HIGH) {
+  if (buttonState == HIGH) { 
     digitalWrite(ledPin, HIGH); 
-  } else {
-    digitalWrite(ledPin, LOW);   
+  } else { 
+    digitalWrite(ledPin, LOW); 
   }
 }
-
 ```
 
 Demo Video (https://youtu.be/0y8Jxy8abOY?si=4VabWjSVQsWfRlsm)
